@@ -19,8 +19,11 @@ body {
 #main {
     height: 150px;
     padding-top: 55px;
-    background-color: blue;
-    background-image: url(../images/wave1.png)
+    background-color: white;
+    background-image: url(../images/water3.jpg);
+    background-image: center 50%;
+   
+
 
 }
 
@@ -33,30 +36,73 @@ body {
 }
 
 #container1 {
-	width: 375px;
-	height: 250px;
-	background-color: green;
+	width: 33%;
+	min-height: 250px;
+	max-height: 600px;
+	background-color: #909497;
 	float: left;
-	border: 1px solid;
+	
 }
 
 #container2 {
-	width: 375px;
-	height: 250px;
-	background-color: purple;
+	width: 33%;
+	min-height: 250px;
+	max-height: 600px;
+	background-color: #839192;
+	margin-left: 5px;
 	float: left;
-	margin-left: 55px;
-	border: 1px solid;
+	
 }
 
 #container3 {
-	width: 375px;
-	height: 250px;
-	background-color: yellow;
+	width: 33%;
+	min-height: 250px;
+	max-height: 600px;
+	background-color: #99A3A4;
 	float: right;
-	border: 1px solid;
+	
 }
 
+#about {
+	min-height: 300px;
+	max-height: 600px;
+	background-color: #34495E;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#nav {
+	min-height: 300px;
+	max-height: 600px;
+	background-color: #2E86C1;
+	position: relative;
+	margin-top: 20px;
+}
+
+#nav2 {
+	min-height: 300px;
+	max-height: 600px;
+	background-color: #DC7633;
+	position: relative;
+	margin-top: 20px;
+}
+
+#contact {
+	min-height: 300px;
+	max-height: 600px;
+	background-color: #FBEEE6;
+	position: relative;
+	margin-top: 20px;
+}
+
+#backTotop {
+	/*position: fixed bottom 2% left 2%;*/
+	position:fixed; 
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background-color: #76448A;  
+}
 
 
 h1 {
@@ -70,7 +116,8 @@ h2 {
 
 
 p {
-	width: 500px;
+	width: auto;
+	padding: 10px 10px 10px 10px;
 }
 
 
@@ -83,10 +130,11 @@ a {
 }
 
 
-
-a:hover, a.on {
-	color: #cc3333;
+  nav a.hover {
+  	color: #cc3333;
 	background-color: #ffffff;
 }
+
+
 
 
