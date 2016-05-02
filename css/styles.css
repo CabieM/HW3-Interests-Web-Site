@@ -1,0 +1,59 @@
+body {
+	font-size: 80%;
+	font-family: Arial;
+	letter-spacing: 0.15em;
+	background-color: white;
+}
+
+
+#navigation {
+	/*max-width: 940px;
+	min-width: 720px;*/
+	margin:	10px auto 10px auto;
+	padding: 20px;
+	/*border:	4px double #000;*/
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.main {
+    height: 150px;
+    padding-top: 55px;
+    background-color: blue;
+    background-image: url(../images/wave1.png)
+
+}
+
+
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 10px
+}
+
+
+p {
+	width: 500px;
+}
+
+
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 8px 20px 7px 20px;
+
+}
+
+
+
+a:hover, a.on {
+	color: #cc3333;
+	background-color: #ffffff;
+}
+
+
