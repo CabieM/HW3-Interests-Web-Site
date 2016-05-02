@@ -16,12 +16,45 @@ body {
 	text-align: center;
 }
 
-.main {
+#main {
     height: 150px;
     padding-top: 55px;
     background-color: blue;
     background-image: url(../images/wave1.png)
 
+}
+
+#wrapper {
+	height: 350px;
+	background-color: white;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#container1 {
+	width: 375px;
+	height: 250px;
+	background-color: green;
+	float: left;
+	border: 1px solid;
+}
+
+#container2 {
+	width: 375px;
+	height: 250px;
+	background-color: purple;
+	float: left;
+	margin-left: 55px;
+	border: 1px solid;
+}
+
+#container3 {
+	width: 375px;
+	height: 250px;
+	background-color: yellow;
+	float: right;
+	border: 1px solid;
 }
 
 
