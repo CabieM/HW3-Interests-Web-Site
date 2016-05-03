@@ -21,7 +21,10 @@ body {
     padding-top: 55px;
     background-color: white;
     background-image: url(../images/water3.jpg);
-    background-image: center 50%;
+    /*background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;*/
+  
    
 
 
