@@ -42,7 +42,7 @@ body {
 	width: 33%;
 	min-height: 250px;
 	max-height: 600px;
-	background-color: #909497;
+	/*background-color: #AED6F1;*/
 	float: left;
 	
 }
@@ -51,7 +51,7 @@ body {
 	width: 33%;
 	min-height: 250px;
 	max-height: 600px;
-	background-color: #839192;
+	/*background-color: #AED6F1;*/
 	margin-left: 5px;
 	float: left;
 	
@@ -61,7 +61,7 @@ body {
 	width: 33%;
 	min-height: 250px;
 	max-height: 600px;
-	background-color: #99A3A4;
+	/*background-color: #AED6F1;*/
 	float: right;
 	
 }
@@ -96,7 +96,19 @@ body {
 	background-color: #FBEEE6;
 	position: relative;
 	margin-top: 20px;
+	text-align: center;
 }
+
+#contact h1 {
+	margin-left: 50px;
+}
+
+
+#socialIcons img {
+	display: inline-block;
+
+}
+
 
 #backTotop {
 	/*position: fixed bottom 2% left 2%;*/
@@ -104,7 +116,14 @@ body {
     z-index: 999;
     right: 20px;
     bottom: 20px;
-    background-color: #76448A;  
+    background-color: rgba(81, 14, 102, 0.5);  
+}
+
+img {
+	display: block;
+	margin: 0px auto;
+	width: 250px;
+	height: 250px;
 }
 
 
@@ -120,7 +139,7 @@ h2 {
 
 p {
 	width: auto;
-	padding: 10px 10px 10px 10px;
+	padding: 20px 20px 20px 20px;
 }
 
 
